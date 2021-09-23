@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 // Controls the view 
 @Controller
-public class HomeController {
+public class ShopController {
     // Get request mapping, accepts the url path
     @GetMapping("/")
     public String home() {
